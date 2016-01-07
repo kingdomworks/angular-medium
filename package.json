@@ -1,0 +1,30 @@
+{
+  "name": "angular-medium",
+  "version": "1.0.0",
+  "description": "Angular with a medium API to create a front-end only blog",
+  "main": "www/app.js",
+  "directories": {
+    "test": "test",
+    "packages": "jspm_packages"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "angular",
+    "medium"
+  ],
+  "author": "Kingdomworks Dev Team",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.8"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
